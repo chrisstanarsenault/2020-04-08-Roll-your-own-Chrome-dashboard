@@ -1,84 +1,68 @@
-# Today's Objective: Roll your own Chrome dashboard
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Prize
+## Available Scripts
 
-$25 CAD Amazon gift card + bragging rights.
+In the project directory, you can run:
 
-Tip: Read the [General Information Document](General%20Information.md) for more info on how to get started and submit.
+### `yarn start`
 
-## Objective
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-* `IMPORTANT` For security purposes, I will NOT be installing anyone's extensions on my local machine. To get Aesthetic points for your extension, please upload a 1 to 2 minute demo of the extension.
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
-Today's objective is to create your own dashboard for Chrome.
+### `yarn test`
 
-Dashboards (a.k.a. "New Tab" pages) are a popular type of Chrome extension. Dashboards are relatively easy to build. In fact, they're amazing 1st projects for anyone looking to learn how to build a Chrome extension.
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-A very well-known one is [Momentum](https://momentumdash.com/), which replaces your New Tab page with a beautiful image, a clock, and an inspirational quote. Another is [Gyroscope](https://gyrosco.pe/chrome/), which gives you your personal statistics, and [Homey](https://chrome.google.com/webstore/detail/homey-your-startpage-assi/lllnjdmfnfjifcfpppjmcnanpokikcpl), which decorates your New Tab with a beautiful wallpaper and several widgets.
+### `yarn build`
 
-## Requirements
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-So, this is your task:
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
 
-Create a Chrome extension that replaces your "New Tab" page with a design of your own choosing. 
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-That's it!
+### `yarn eject`
 
-But of course, only the most interesting, useful, and cool designs will have a chance of winning -- and they must be written well, too. So, get creative :-)
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-### How to build a Chrome extension
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-A Chrome extension is basically a `.zip` file. This project will contain a simple HTML page and some JS files zipped into a Chrome extension.
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-Given time constraints, you should definitely NOT build a backend component for this project.
+## Learn More
 
-You can read the following resources to get familiar with how to create this extension:
-* [StackOverflow page showing you how to create a New Tab](https://stackoverflow.com/questions/39916079/how-to-create-a-chrome-extension-to-change-the-default-tab)
-* [Chrome Extension documentation](https://developer.chrome.com/extensions)
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-## Suggested projects
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-You can create a project of your own choosing, as long as it replaces New Tab.
+### Code Splitting
 
-Please make sure you pick something that can be completed in 2 hours AND with good quality code. So keep it simple :-)
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-Here are some suggestions to get your brain juices flowing.
+### Analyzing the Bundle Size
 
-(Feel free to mix and match)
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-* New Tab wallpaper replacer (Easy)
-* New Tab with useful links (Easy)
-* Notepad which persists its data (Easy)
-* Useful utilities dashboard, like calculators and converters (Easy to Medium)
-* News dashboard (Medium)
-* Bitcoin and stock prices tracker (Medium)
-* A simple game (Hard)
+### Making a Progressive Web App
 
-### Frameworks:
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
-If you're building something complex, it is recommended that you use a framework such as React, Vue, Angular or jQuery.
+### Advanced Configuration
 
-Chrome extensions can be built with any framework. But if you don't want to use a framework, that's totally fine, too. Especially for this project, where a basic New Tab can be built with a simple HTML file.
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
 
-### APIs:
+### Deployment
 
-Here are some useful suggestions:
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
 
-* [Get a random HD wallpaper from Unsplash](https://source.unsplash.com/) (Use `https://source.unsplash.com/random/3840x2160` for HD wallpapers)
-* [Public APIs](https://github.com/public-apis/public-apis) where you can source more data. (Look for "Auth: No, CORS: Yes". These APIs don't need additional overhead such as registration in order to work with them)
+### `yarn build` fails to minify
 
-## Restrictions
-
-* Your project must use JavaScript.
-* Your project must NOT have a backend component. (It really isn't needed)
-* `IMPORTANT` For security purposes, I will NOT be installing anyone's extensions on my local machine. To get Aesthetic points for your extension, please upload a 1 to 2 minute demo of the extension.
-
-There are no other restrictions.
-
-## Tips for success:
-
-1. The project is intentionally simple so you can focus on code quality.
-1. The requirements are intentionally minimalistic so you can get as creative as you'd like.
-1. You get a LOT of time for code review comments. So you can win even if you feel your project isn't great, simply on the strength of your code review comments!
-1. Keep in mind, 33% of your score is based on aesthetic appeal! So try to make it look nice.
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
